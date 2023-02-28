@@ -11,4 +11,6 @@ https://openweathermap.org/api
 
 https://openweathermap.org/history-bulk
 
+https://openweathermap.org/history
+
 https://dev.meteostat.net/

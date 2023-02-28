@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "node": "^19.6.1",
     "square": "^25.1.0"
   }
 }
