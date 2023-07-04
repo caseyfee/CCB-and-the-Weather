@@ -3,7 +3,7 @@ Check it out here: [website coming]
 
 ## Description
 
-This simple website was created by a coder and a baker (who also codes) and works at the Columbia City Bakery (CCB) to test hypothesis that the weather is directly tied to our sales. Since the very start of Covid, CCB has operated with only a murphy door instead of a cafe leaving customers momentarily outside. It has been the baker's observation that sales slow down when the weather is worse and she wanted to see what kind of trending could be down if the future weather is known to prevent food waste and unnecessary manpower.
+This simple website was created by three coders (and one is also a baker) who works at the Columbia City Bakery (CCB) to test hypothesis that the weather is directly tied to our sales. Since the very start of Covid, CCB has operated with only a murphy door instead of a cafe leaving customers momentarily outside. It has been the baker's observation that sales slow down when the weather is worse and she wanted to see what kind of trending could be down if the future weather is known to prevent food waste and unnecessary manpower.
 
 ![CCB Dutch Door](CCBDutchDoor.png)
 
