@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import BucketForm from './BucketForm';
 import Bucket from './Bucket';
+import ccbSales from './ccbSales';
+import weatherGraph from './weatherGraph';
 
 function BucketList() {
   const [bucket, setBucket] = useState([]);
@@ -61,7 +63,7 @@ function BucketList() {
 
   return (
     <div>
-      <h1>What is on your bucket list?</h1>
+      <h1>Let's Find Some Trends!</h1>
       <BucketForm onSubmit={addBucketItem} />
       <Bucket
         bucket={bucket}
@@ -69,9 +71,8 @@ function BucketList() {
         removeBucketItem={removeBucketItem}
         editBucketItem={editBucketItem}
       ></Bucket>
-      {/* insert ccbSales */}
-      {/* insert weatherGraph */}
-
+      <ccbSales/>
+      <weatherGraph/>
     </div>
   );
 }
