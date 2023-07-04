@@ -69,6 +69,9 @@ function BucketList() {
         removeBucketItem={removeBucketItem}
         editBucketItem={editBucketItem}
       ></Bucket>
+      {/* insert ccbSales */}
+      {/* insert weatherGraph */}
+
     </div>
   );
 }

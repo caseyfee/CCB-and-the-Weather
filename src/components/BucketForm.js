@@ -42,7 +42,7 @@ function BucketForm(props) {
         ></input>
         <div className="dropdown">
           <button className={`dropbtn ${eagerness}`}>
-            {eagerness || 'Save'}
+            {eagerness || 'Choose Timeframe'}
           </button>
           <div className="dropdown-content">
             {/* would be good to add choose "this date" between "this date" . Could be easy with an API URL */}
@@ -51,7 +51,7 @@ function BucketForm(props) {
             <p onClick={() => setEagerness(eagernessLevel[2])}>1 Day</p>
           </div>
         </div>
-        <button className="bucket-button">Choose Timeframe</button>
+        <button className="bucket-button">I'm a button</button>
       </form>
     </div>
   ) : (
@@ -68,7 +68,7 @@ function BucketForm(props) {
         ></input>
         <div className="dropdown">
           <button className={`dropbtn ${eagerness}`}>
-            {eagerness || 'Save'}
+            {eagerness || 'Choose Timeframe'}
           </button>
           <div className="dropdown-content">
             <p onClick={() => setEagerness(eagernessLevel[0])}>1 Year</p>
