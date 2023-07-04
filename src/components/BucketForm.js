@@ -34,7 +34,7 @@ function BucketForm(props) {
       <form className="bucket-form" onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Add to your bucket list"
+          placeholder="Let's find some trends"
           value={input}
           name="text"
           className="bucket-input"
@@ -42,15 +42,16 @@ function BucketForm(props) {
         ></input>
         <div className="dropdown">
           <button className={`dropbtn ${eagerness}`}>
-            {eagerness || 'Priority'}
+            {eagerness || 'Save'}
           </button>
           <div className="dropdown-content">
-            <p onClick={() => setEagerness(eagernessLevel[0])}>Must do</p>
-            <p onClick={() => setEagerness(eagernessLevel[1])}>Want to do</p>
-            <p onClick={() => setEagerness(eagernessLevel[2])}>Take it or leave it</p>
+            {/* would be good to add choose "this date" between "this date" . Could be easy with an API URL */}
+            <p onClick={() => setEagerness(eagernessLevel[0])}>1 Year</p>
+            <p onClick={() => setEagerness(eagernessLevel[1])}>2 Weeks</p>
+            <p onClick={() => setEagerness(eagernessLevel[2])}>1 Day</p>
           </div>
         </div>
-        <button className="bucket-button">Add bucket list item</button>
+        <button className="bucket-button">Choose Timeframe</button>
       </form>
     </div>
   ) : (
@@ -67,15 +68,16 @@ function BucketForm(props) {
         ></input>
         <div className="dropdown">
           <button className={`dropbtn ${eagerness}`}>
-            {eagerness || 'Priority'}
+            {eagerness || 'Save'}
           </button>
           <div className="dropdown-content">
-            <p onClick={() => setEagerness(eagernessLevel[0])}>Must do</p>
-            <p onClick={() => setEagerness(eagernessLevel[1])}>Want to do</p>
-            <p onClick={() => setEagerness(eagernessLevel[2])}>Take it or leave it</p>
+            <p onClick={() => setEagerness(eagernessLevel[0])}>1 Year</p>
+            <p onClick={() => setEagerness(eagernessLevel[1])}>2 Weeks</p>
+            <p onClick={() => setEagerness(eagernessLevel[2])}>1 Day</p>
           </div>
         </div>
         <button className="bucket-button">Update</button>
+        {/* would be cool to add a save button (could it make and save a new tab) */}
       </form>
     </div>
   );
